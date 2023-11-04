@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can search for item",
+        "description": "",
+        "id": "this-is-a-feature-for-search-functionality;verify-user-can-search-for-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3614587500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e mac",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Macy_Search.open_mac(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2206614600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mouse hover on Beauty",
+            "match": {
+              "location": "Macy_Search.mouse_hover_on_Beauty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on all skin",
+            "match": {
+              "location": "Macy_Search.click_on_all_skin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify user can search for item",
+            "match": {
+              "location": "Macy_Search.verify_user_can_search_for_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for search functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-search-functionality",
+    "keyword": "Feature",
+    "uri": "Macy_Search.feature"
+  }
+]
